@@ -9,12 +9,12 @@
 
         @font-face {
             font-family: 'GothamMedium';
-            src: url(https://github.com/LiamMacCormack/mehd-email-signature/blob/master/Gotham%20Medium/Gotham%20Medium.otf);
+            src: url(https://rawgit.com/LiamMacCormack/mehd-email-signature/master/Gotham%20Medium/Gotham%20Medium.otf);
             font-weight: 400;
         }
 
         body {
-            font-size: 15.5px;
+            font-size: 16px;
             margin: 0;
             padding: 0;
             font-family: 'GothamMedium';
@@ -22,31 +22,50 @@
 
         .employee-thumbnail {
             float: left;
-            width: 5em;
-            height: 5em;
+            width: 4em;
+            height: 4em;
             border-radius: 20%;
-            margin-top: 2.5em;
+            margin-top: 2.2em;
+            margin-left: .5em;
         }
 
         .employee {
             float: left;
             margin-left: 1em;
+            margin-top: 1em;
         }
 
         .employee h2 {
-            font-family: 'GothamMedium';
+            color: #004e67;
+            margin: 0 0;
+            font-size: 1.2em;
+            text-transform: uppercase;
         }
 
         .employee h3 {
+            color:#93959c;
+            margin-top: .5em;
+            margin-bottom: 0;
+            font-size: .8em;
+            text-transform: uppercase;
 
+        }
+
+        .employee__book {
+            display: block;
+            color: #ef4047;
+            margin-top: .5em;
         }
 
         .employee__contact {
             list-style: none;
             padding-left: 0;
+            margin-bottom: 0;
+            margin-top: .2em;
         }
 
         .employee__contact li {
+            font-size: .6rem;
 
         }
 
@@ -55,7 +74,9 @@
         }
         
         .employee__contact li a {
+            color:#93959c;
             text-decoration: none;
+            margin-left: .2rem;
         }
 
 
@@ -75,6 +96,7 @@
                 <li><span>E.</span> <a href="emailto:riley@globalofficesoftware.com">riley@globalofficesoftware.com</a></li>
                 <li><span>W.</span><a href="https://mehdapp.com">mehdapp.com</a></li>
             </ul>
+            <a  class="employee__book" href="https://mehdapp.com/book-a-demo">Book a Demo with Mehd</a>
         </div>
     </div>
 </body>
